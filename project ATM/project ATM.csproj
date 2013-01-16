@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D64A450-DE9B-4564-9F39-F9543767B65F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>project_ATM</RootNamespace>
+    <AssemblyName>project ATM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password2.Designer.cs">
+      <DependentUpon>Password2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password1.Designer.cs">
+      <DependentUpon>Password1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Interface.Designer.cs">
+      <DependentUpon>Login Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer1.Designer.cs">
+      <DependentUpon>Transfer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer2.Designer.cs">
+      <DependentUpon>Transfer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer3.Designer.cs">
+      <DependentUpon>Transfer3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer4.Designer.cs">
+      <DependentUpon>Transfer4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfer5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer5.Designer.cs">
+      <DependentUpon>Transfer5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Withdrawal1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Withdrawal1.Designer.cs">
+      <DependentUpon>Withdrawal1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Withdrawal2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Withdrawal2.Designer.cs">
+      <DependentUpon>Withdrawal2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Withdrawal3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Withdrawal3.Designer.cs">
+      <DependentUpon>Withdrawal3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Balance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balance.Designer.cs">
+      <DependentUpon>Balance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password2.resx">
+      <DependentUpon>Password2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password1.resx">
+      <DependentUpon>Password1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Interface.resx">
+      <DependentUpon>Login Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer1.resx">
+      <DependentUpon>Transfer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer2.resx">
+      <DependentUpon>Transfer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer3.resx">
+      <DependentUpon>Transfer3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer4.resx">
+      <DependentUpon>Transfer4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer5.resx">
+      <DependentUpon>Transfer5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Withdrawal1.resx">
+      <DependentUpon>Withdrawal1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Withdrawal2.resx">
+      <DependentUpon>Withdrawal2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Withdrawal3.resx">
+      <DependentUpon>Withdrawal3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Balance.resx">
+      <DependentUpon>Balance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
